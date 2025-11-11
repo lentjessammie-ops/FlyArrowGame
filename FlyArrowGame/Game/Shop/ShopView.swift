@@ -97,7 +97,7 @@ struct ShopView: View {
             })
             Spacer()
             Text(mode == .shop ? "Shop" : "Inventory")
-                .font(.custom("FascinateInline-Regular", size: 40))
+                .font(.custom("FascinateInline-Regular", size: 34))
                 .foregroundColor(.white)
             Spacer()
             appleCounter

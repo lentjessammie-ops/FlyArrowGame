@@ -98,7 +98,8 @@ struct OnboardingPageView: View {
             Image(imageName)
                 .resizable()
                 .scaledToFit()
-                .frame(height: 150) // Уменьшил высоту, чтобы лучше помещалось
+                .frame(height: 100)
+                .frame(width: 150)
                 .shadow(color: .black.opacity(0.2), radius: 10, y: 5)
             
             VStack(spacing: 15) {
@@ -111,6 +112,8 @@ struct OnboardingPageView: View {
                     .foregroundColor(.white.opacity(0.9))
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 20)
+                
+                Spacer()
             }
         }
         .padding()

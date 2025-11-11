@@ -53,6 +53,7 @@ struct SettingsView: View {
                         }
                     }
                 }
+                .scrollIndicators(.hidden)
                 .padding(.horizontal)
                 
                 Spacer()
@@ -113,7 +114,7 @@ struct SettingsView: View {
             }
             Spacer()
             Text("Settings")
-                .font(.custom("FascinateInline-Regular", size: 48))
+                .font(.custom("FascinateInline-Regular", size: 40))
                 .foregroundColor(.white)
             Spacer()
             Circle().fill(Color.clear).frame(width: 50, height: 50)
